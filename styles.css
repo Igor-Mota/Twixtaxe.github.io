@@ -1,0 +1,20 @@
+.game{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #ddd9ce;
+    border: 6px solid #cecece;
+    border-radius: 10px;
+    grid-template:repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.game > div{
+    border: 6px solid #cacaca;
+    border-radius: 2px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
