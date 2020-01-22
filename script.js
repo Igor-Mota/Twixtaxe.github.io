@@ -50,9 +50,7 @@ const jogo_da_velha = {
         console.log("game Over" + i )
     },
 
-    restart: function(){
-        this.btn.addEventListener("click", this.start)
-    },
+    
     start: function(){
         this.board.fill("")
         this.desenha();
