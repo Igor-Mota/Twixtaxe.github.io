@@ -3,8 +3,10 @@
     height: 500px;
     margin: 50px auto;
     background-color: #ddd9ce;
+    color: #fff;
     border: 6px solid #cecece;
     border-radius: 10px;
+    display: grid;
     grid-template:repeat(3, 1fr) / repeat(3, 1fr);
 }
 
