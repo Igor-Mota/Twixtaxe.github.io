@@ -7,6 +7,10 @@ const jogo_da_velha = {
         this.container_element = container;
     },
 
+    jogada: function(){
+        console.log("jogada")
+    },
+
     desenha: function(){
         let content = "";
 
