@@ -3,13 +3,18 @@
         <title>Tentativa de jogo da velha</title>
         <link rel="stylesheet" href="styles.css">
     </header>
-    <body>
-       <div class="game"></div>
+    <body >
+        
     
-    <script src="script.js"></script>
+        <div class="game"></div>
+        <button  class="recomecar">Reiniciar</button>
+        <script src="script.js"></script>
     <script>
         jogo_da_velha.init(document.querySelector(".game"));
-        jogo_da_velha.desenha();
+        jogo_da_velha.start();
+        
+        document.querySelector(".recomecar").addEventListener("click", ()=>{jogo_da_velha.start()});
+        
     </script>
     </body>
 
